@@ -1,90 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="960" viewBox="0 0 760 960" role="img" aria-labelledby="title desc">
   <title id="title">Galgali at EQUAXTION — mobile cybersecurity terminal</title>
-  <desc id="desc">A mobile terminal interface with an ASCII portrait of Galgali and EQUAXTION cybersecurity and software engineering identity.</desc>
+  <desc id="desc">A restrained mobile terminal with Galgali's ASCII portrait, cybersecurity role, mission, and EQUAXTION contact details.</desc>
   <defs>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#2e4a41" stroke-width="1" opacity="0.18"/>
-    </pattern>
-    <clipPath id="portraitClip"><rect x="54" y="108" width="652" height="468" rx="4"/></clipPath>
+    <linearGradient id="topline" x1="0" x2="1">
+      <stop offset="0" stop-color="#00d992" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00d992" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#00d992" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="portraitClip"><rect x="40" y="105" width="680" height="448"/></clipPath>
     <style>
       .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
       .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
-      .label { fill:#6c8d82; font-size:15px; font-weight:700; letter-spacing:2.4px; }
-      .value { fill:#effbf6; font-size:25px; font-weight:700; }
-      .body { fill:#a7beb6; font-size:19px; font-weight:500; }
+      .prompt { fill:#00d992; font-size:15px; font-weight:700; letter-spacing:1.3px; }
+      .muted { fill:#718b82; }
+      .body { fill:#afc2bb; font-size:18px; }
+      .strong { fill:#f2faf7; font-weight:700; }
     </style>
   </defs>
 
   <rect width="760" height="960" rx="12" fill="#07100d"/>
-  <rect x="1" y="1" width="758" height="958" rx="11" fill="none" stroke="#25443a"/>
-  <rect x="1" y="1" width="758" height="958" rx="11" fill="url(#grid)" opacity="0.52"/>
+  <rect x="1" y="1" width="758" height="958" rx="11" fill="none" stroke="#244239"/>
+  <rect x="0" y="0" width="760" height="2" rx="1" fill="url(#topline)"/>
 
-  <g class="mono">
-    <circle cx="30" cy="31" r="6" fill="#ff695d"/>
-    <circle cx="52" cy="31" r="6" fill="#f6bd4f"/>
-    <circle cx="74" cy="31" r="6" fill="#52c46b"/>
-    <text x="102" y="37" fill="#7d9a90" font-size="15">galgali@equaxtion:~/profile</text>
-    <circle cx="686" cy="31" r="5" fill="#00d992" filter="url(#softGlow)"/>
-    <text x="702" y="37" fill="#62e9b7" font-size="12" font-weight="700">LIVE</text>
-  </g>
+  <circle cx="24" cy="27" r="5" fill="#ff6b62"/>
+  <circle cx="43" cy="27" r="5" fill="#e9b949"/>
+  <circle cx="62" cy="27" r="5" fill="#75d98b"/>
+  <text x="92" y="32" class="mono muted" font-size="12">galgali@equaxtion:~/profile</text>
+  <line x1="24" y1="54" x2="736" y2="54" stroke="#18342b"/>
 
-  <rect x="28" y="66" width="704" height="864" rx="8" fill="#091410" stroke="#28473c"/>
-  <text x="54" y="96" class="label mono">VISUAL / GALGALI</text>
-  <line x1="54" y1="108" x2="706" y2="108" stroke="#28473c"/>
-
-  <g class="mono" clip-path="url(#portraitClip)">
-    <text x="130" y="111" fill="#65e6b3" font-size="11.6" letter-spacing="1.9" opacity="0.92">
-      <tspan x="130" dy="13.2">............,,,,..,:,,,,,,,,,,,,,,...... ,;;:,,.</tspan>
-      <tspan x="130" dy="13.2">,,.,.,,,...,,,,::,,::,:,,:;::,,,,,,,,,,..::;;:,,</tspan>
-      <tspan x="130" dy="13.2">,,.,,,,...,,,::,;i:.,::,,ii;:,:,,,,,,,,.,;ii;::,</tspan>
-      <tspan x="130" dy="13.2">::,,,,,,..,,,,::,;;:.:i.,;:,.::,,::,,,,,,,;;i;::</tspan>
-      <tspan x="130" dy="13.2">,:,::,...,,,,,,,..,::,;..:,.,,,:i:.:::,,,..:i;;:</tspan>
-      <tspan x="130" dy="13.2">,:::;;,.,,,;:,,,,,.,:::, ,...,:;,.:;;:,,,.,:i;::</tspan>
-      <tspan x="130" dy="13.2">,::::,.,,,::,,,,,,,,,,.,    .,, .,...,.,,,.:;i;:</tspan>
-      <tspan x="130" dy="13.2">,:::,. ,,,,.  ..,,,,,,..             ..,,,.:i;;:</tspan>
-      <tspan x="130" dy="13.2">,::;;,.,...    ...,.,      ,,;;irr:    ....,;;;:</tspan>
-      <tspan x="130" dy="13.2">,::;:. ...  :A5;,::;:X2XX53MMGGGGGMX,     .:;;:,</tspan>
-      <tspan x="130" dy="13.2">,:;;:..    .2GX;hrrs;HSSSSGGGGGGGGGhA    .,:::;:</tspan>
-      <tspan x="130" dy="13.2">,:::;;,    iAA2HSXr5rMSGGGGGGGGGGGGhMi   .i;;i;;</tspan>
-      <tspan x="130" dy="13.2">,:::;;:i,  s2GGSSHXM5hGGGGGSSSSSGGGh3r  iriii;;:</tspan>
-      <tspan x="130" dy="13.2">,::;;;;33..3MSSGGH52hMGGGGGM33hMHGGHMA rMsii;:;:</tspan>
-      <tspan x="130" dy="13.2">,:::i;ii5rsHMh2s;:,..AGGGG5, .,:iX2hHh,5ri;;::::</tspan>
-      <tspan x="130" dy="13.2">,:::;:;rrsAGHHhAAAi,.,3GGHi .;XAA5HHHhirrs,:,:::</tspan>
-      <tspan x="130" dy="13.2">,,:;;;:3A:XGGhXAA;Xr:,;HG5,::AXiAX5HG3::2s,,::::</tspan>
-      <tspan x="130" dy="13.2">,,::;;,2Xr3HG5ASSG#Ss;ihG5i;h9SG#3AHGhX;X:::,:,:</tspan>
-      <tspan x="130" dy="13.2">,,:;;;::2rsMGHA3MHhAiXs5GGhir2MHhA3GG5rXi:::,,,:</tspan>
-      <tspan x="130" dy="13.2">,,::;i;:i2:5GGGMMM5A5Hi5SGGH2X5MMHGGM;Xs,::,,,,,</tspan>
-      <tspan x="130" dy="13.2">,,,::;:;,r2XGGGGGHHGSh,3SGGGGGGGGGGG2ss,:::,,,,,</tspan>
-      <tspan x="130" dy="13.2">.,,:::,::,:iMGGGGGGGGA;MGGGGGGGGGGHHr,,::::,,,,,</tspan>
-      <tspan x="130" dy="13.2">.,,:::::::,,5GHHGGGGMisGSGGGGGGGGHG3,,::::,,,:,,</tspan>
-      <tspan x="130" dy="13.2">.,,:::;::::,rHHHHGGGH2:A3XhGGGGHHHHs,::::::,,,:,</tspan>
-      <tspan x="130" dy="13.2">.,,,,::::::::3HHHHHHHG5;i5HHHHHHHH5:,:::,,,,,.,.</tspan>
-      <tspan x="130" dy="13.2">.,.,,,,:::::,;3HHHHHGGGMHSGGHHHHH3:,:::,,,,,,,,.</tspan>
-      <tspan x="130" dy="13.2">.,.,,,::::,::,;3HHHHh2AXXA5hHHHH2,,,::,,,,,,.,,.</tspan>
-      <tspan x="130" dy="13.2">..,,,,::::,:,;::5HHHh5222223MHHX,:;,,,,,,,,..,,,</tspan>
-      <tspan x="130" dy="13.2">,..,,,:,,,,,,;r;,2HHG3XssAMHHMr,;;:,,,,,,,,..,,.</tspan>
-      <tspan x="130" dy="13.2">,,.,.,,,,,..;:ri:.AHHHMhhHHH3;.iii,:.,,,,,,.....</tspan>
-      <tspan x="130" dy="13.2">.....,,,,, ;r;:;;,.shMHHHHMA,.ii;;:;..,,,,......</tspan>
-      <tspan x="130" dy="13.2">.....,,,. ,iii;,;i:.:isssri,,;i::;ii, .,,,......</tspan>
-      <tspan x="130" dy="13.2">.....,,   ,iiii;::;;.....,;;:;:;iiii;   ,,......</tspan>
-      <tspan x="130" dy="13.2">.....,.   ,iiiiii::;;,::;ii::;iiiii;;.   ,.,....</tspan>
+  <text x="40" y="86" class="mono muted" font-size="12" font-weight="700" letter-spacing="2">VISUAL / GALGALI</text>
+  <g clip-path="url(#portraitClip)" class="mono" fill="#00d992" font-size="10" opacity="0.93">
+    <text x="76" y="116" xml:space="preserve">
+      <tspan x="76" dy="0">............,,,,..,:,,,,,,,,,,,,,,...... ,;;:,.</tspan>
+      <tspan x="76" dy="13">,,.,.,,,...,,,,::,,::,:,,:;::,,,,,,,,,,..::;;:,,</tspan>
+      <tspan x="76" dy="13">,,.,,,,...,,,::,;i:.,::,,ii;:,:,,,,,,,,.,;ii;::,</tspan>
+      <tspan x="76" dy="13">::,,,,,,..,,,,::,;;:.:i.,;:,.::,,::,,,,,,,;;i;::</tspan>
+      <tspan x="76" dy="13">,:,::,...,,,,,,,..,::,;..:,.,,,:i:.:::,,,..:i;;:</tspan>
+      <tspan x="76" dy="13">,:::;;,.,,,;:,,,,,.,:::, ,...,:;,.:;;:,,,.,:i;::</tspan>
+      <tspan x="76" dy="13">,::::,.,,,::,,,,,,,,,,.,    .,, .,...,.,,,.:;i;:</tspan>
+      <tspan x="76" dy="13">,:::,. ,,,,.  ..,,,,,,..             ..,,,.:i;;:</tspan>
+      <tspan x="76" dy="13">,::;;,.,...    ...,.,      ,,;;irr:    ....,;;;:</tspan>
+      <tspan x="76" dy="13">,::;:. ...  :A5;,::;:X2XX53MMGGGGGMX,     .:;;:,</tspan>
+      <tspan x="76" dy="13">,:;;:..    .2GX;hrrs;HSSSSGGGGGGGGGhA    .,:::;:</tspan>
+      <tspan x="76" dy="13">,:::;;,    iAA2HSXr5rMSGGGGGGGGGGGGhMi   .i;;i;;</tspan>
+      <tspan x="76" dy="13">,:::;;:i,  s2GGSSHXM5hGGGGGSSSSSGGGh3r  iriii;;:</tspan>
+      <tspan x="76" dy="13">,::;;;;33..3MSSGGH52hMGGGGGM33hMHGGHMA rMsii;:;:</tspan>
+      <tspan x="76" dy="13">,:::i;ii5rsHMh2s;:,..AGGGG5, .,:iX2hHh,5ri;;::::</tspan>
+      <tspan x="76" dy="13">,:::;:;rrsAGHHhAAAi,.,3GGHi .;XAA5HHHhirrs,:,:::</tspan>
+      <tspan x="76" dy="13">,,:;;;:3A:XGGhXAA;Xr:,;HG5,::AXiAX5HG3::2s,,::::</tspan>
+      <tspan x="76" dy="13">,,::;;,2Xr3HG5ASSG#Ss;ihG5i;h9SG#3AHGhX;X:::,:,:</tspan>
+      <tspan x="76" dy="13">,,:;;;::2rsMGHA3MHhAiXs5GGhir2MHhA3GG5rXi:::,,,:</tspan>
+      <tspan x="76" dy="13">,,::;i;:i2:5GGGMMM5A5Hi5SGGH2X5MMHGGM;Xs,::,,,,,</tspan>
+      <tspan x="76" dy="13">,,,::;:;,r2XGGGGGHHGSh,3SGGGGGGGGGGG2ss,:::,,,,,</tspan>
+      <tspan x="76" dy="13">.,,:::,::,:iMGGGGGGGGA;MGGGGGGGGGGHHr,,::::,,,,,</tspan>
+      <tspan x="76" dy="13">.,,:::::::,,5GHHGGGGMisGSGGGGGGGGHG3,,::::,,,:,,</tspan>
+      <tspan x="76" dy="13">.,,:::;::::,rHHHHGGGH2:A3XhGGGGHHHHs,::::::,,,:,,</tspan>
+      <tspan x="76" dy="13">.,,,,::::::::3HHHHHHHG5;i5HHHHHHHH5:,:::,,,,,.,.</tspan>
+      <tspan x="76" dy="13">.,.,,,,:::::,;3HHHHHGGGMHSGGHHHHH3:,:::,,,,,,,,.</tspan>
+      <tspan x="76" dy="13">.,.,,,::::,::,;3HHHHh2AXXA5hHHHH2,,,::,,,,,,.,,.</tspan>
+      <tspan x="76" dy="13">..,,,,::::,:,;::5HHHh5222223MHHX,:;,,,,,,,,..,,,</tspan>
+      <tspan x="76" dy="13">,..,,,:,,,,,,;r;,2HHG3XssAMHHMr,;;:,,,,,,,,..,,.</tspan>
+      <tspan x="76" dy="13">,,.,.,,,,,..;:ri:.AHHHMhhHHH3;.iii,:.,,,,,,.....</tspan>
+      <tspan x="76" dy="13">.....,,,,, ;r;:;;,.shMHHHHMA,.ii;;:;..,,,,......</tspan>
+      <tspan x="76" dy="13">.....,,,. ,iii;,;i:.:isssri,,;i::;ii, .,,,......</tspan>
+      <tspan x="76" dy="13">.....,,   ,iiii;::;;.....,;;:;:;iiii;   ,,......</tspan>
+      <tspan x="76" dy="13">.....,.   ,iiiiii::;;,::;ii::;iiiii;;.   ,.,....</tspan>
     </text>
   </g>
 
-  <line x1="54" y1="578" x2="706" y2="578" stroke="#28473c"/>
-  <g class="sans">
-    <text x="54" y="621" class="label">IDENTITY / EQUAXTION</text>
-    <text x="54" y="667" class="value">Galgali</text>
-    <text x="54" y="708" class="body">Senior Cybersecurity Analyst × Software Engineer</text>
-    <text x="54" y="758" class="label">SECURITY × ENGINEERING</text>
-    <text x="54" y="798" class="body">Application security · Risk · Secure architecture</text>
-    <text x="54" y="831" class="body">ERP · AI · Web · Mobile · Production systems</text>
-    <line x1="54" y1="858" x2="706" y2="858" stroke="#28473c"/>
-    <text x="54" y="891" fill="#effbf6" font-size="18" font-weight="700">SECURE THE SYSTEM. BUILD THE BUSINESS.</text>
-    <text x="54" y="916" fill="#6c8d82" font-size="14" font-weight="600">EQUAXTION.COM · CONTACT@EQUAXTION.COM</text>
-  </g>
+  <line x1="40" y1="568" x2="720" y2="568" stroke="#1d3b32"/>
+
+  <text x="40" y="609" class="mono prompt">&gt; whoami</text>
+  <text x="40" y="649" class="sans strong" font-size="30">Galgali</text>
+  <text x="40" y="681" class="sans strong" font-size="19">Senior Cybersecurity Analyst × Software Engineer</text>
+  <text x="40" y="711" class="mono body">EQUAXTION · Morocco</text>
+
+  <text x="40" y="762" class="mono prompt">&gt; mission</text>
+  <text x="40" y="800" class="sans strong" font-size="22">Secure the system. Build the business.</text>
+
+  <text x="40" y="851" class="mono prompt">&gt; contact</text>
+  <text x="40" y="889" class="mono body">equaxtion.com</text>
+  <text x="40" y="921" class="mono body">contact@equaxtion.com</text>
 </svg>
