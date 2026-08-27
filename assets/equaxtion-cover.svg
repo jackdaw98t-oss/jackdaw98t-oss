@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
+  <title id="title">Galgali at EQUAXTION — Cybersecurity and software engineering</title>
+  <desc id="desc">Corporate profile cover for Galgali, Senior Cybersecurity Analyst and Software Engineer at EQUAXTION.</desc>
+  <defs>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d992"/>
+      <stop offset="1" stop-color="#00d992" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+      .eyebrow { fill:#8d9692; font-size:13px; font-weight:700; letter-spacing:2.6px; }
+      .display { fill:#f5f7f6; font-size:52px; font-weight:700; letter-spacing:-1.7px; }
+      .body { fill:#b8c0bd; font-size:18px; font-weight:500; }
+      .meta { fill:#8d9692; font-size:14px; font-weight:600; letter-spacing:.2px; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="430" fill="#07090c"/>
+  <rect x="1" y="1" width="1278" height="428" fill="none" stroke="#292e33"/>
+  <rect x="0" y="0" width="8" height="430" fill="#00d992"/>
+
+  <g class="sans">
+    <text x="64" y="64" class="eyebrow">EQUAXTION · MOROCCAN TECHNOLOGY COMPANY</text>
+
+    <text x="64" y="153" class="display">SECURE THE SYSTEM.</text>
+    <text x="64" y="215" class="display">BUILD THE BUSINESS.</text>
+
+    <text x="64" y="274" fill="#f5f7f6" font-size="21" font-weight="650">Galgali — Senior Cybersecurity Analyst × Software Engineer</text>
+    <text x="64" y="309" class="body">Cybersecurity · Custom software · ERP · AI · Web · Mobile</text>
+
+    <rect x="64" y="350" width="620" height="1" fill="url(#signal)"/>
+    <text x="64" y="386" class="meta">equaxtion.com</text>
+    <text x="242" y="386" fill="#4c5551" font-size="14">/</text>
+    <text x="270" y="386" class="meta">contact@equaxtion.com</text>
+
+    <line x1="1002" y1="62" x2="1002" y2="368" stroke="#292e33"/>
+    <text x="1050" y="163" fill="#f5f7f6" font-size="72" font-weight="750" letter-spacing="-4">EQX</text>
+    <text x="1052" y="207" class="eyebrow">SECURE</text>
+    <text x="1052" y="241" class="eyebrow">BUILD</text>
+    <text x="1052" y="275" class="eyebrow">SCALE</text>
+    <circle cx="1057" cy="333" r="5" fill="#00d992"/>
+    <text x="1074" y="338" fill="#b8c0bd" font-size="13" font-weight="650" letter-spacing="1.2">MOROCCO</text>
+  </g>
+</svg>

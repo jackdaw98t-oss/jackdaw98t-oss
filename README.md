@@ -1,62 +1,54 @@
 <div align="center">
-  <img src="./assets/profile-terminal.svg" width="100%" alt="EQUAXTION operator profile for jackdaw98t-oss" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/equaxtion-cover-mobile.svg" />
+    <img src="./assets/equaxtion-cover.svg" width="100%" alt="Galgali at EQUAXTION — Cybersecurity and software engineering" />
+  </picture>
 </div>
 
 <p align="center">
-  <a href="https://equaxtion.com"><img src="https://img.shields.io/badge/EQUAXTION-Visit%20the%20studio-00D992?style=flat-square&labelColor=101815" alt="EQUAXTION website" /></a>
-  <a href="https://github.com/jackdaw98t-oss"><img src="https://img.shields.io/badge/GitHub-jackdaw98t--oss-EFFBF6?style=flat-square&logo=github&logoColor=EFFBF6&labelColor=101815&color=28473C" alt="GitHub profile" /></a>
-  <img src="https://img.shields.io/badge/Base-Morocco-EFFBF6?style=flat-square&labelColor=101815&color=28473C" alt="Based in Morocco" />
+  <strong><a href="https://equaxtion.com">equaxtion.com</a></strong>
+  &nbsp;·&nbsp;
+  <strong><a href="mailto:contact@equaxtion.com">contact@equaxtion.com</a></strong>
+  &nbsp;·&nbsp;
+  Morocco
 </p>
 
-## Systems, not demos.
+## Secure technology. Built to move business forward.
 
-I design and engineer software around real operations: stock that must reconcile, permissions that must hold, workflows that teams can actually use, and interfaces that stay clear under pressure. My work at **EQUAXTION** spans ERP, POS, web platforms, mobile apps, AI automation, dashboards, hardware integrations, and immersive experiences.
+**EQUAXTION is a Moroccan technology company** that designs, secures, and delivers digital systems for organizations that expect their technology to work — reliably, commercially, and under real operational pressure.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Operational software</strong><br />
-      ERP, POS, inventory, finance, production, restaurant, retail, and internal business tools.
-    </td>
-    <td width="50%" valign="top">
-      <strong>Commercial platforms</strong><br />
-      Distinctive websites, e-commerce, portals, dashboards, kiosks, and mobile experiences.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>AI & automation</strong><br />
-      Practical assistants, connected workflows, analytics, and task automation built around business value.
-    </td>
-    <td width="50%" valign="top">
-      <strong>Immersive systems</strong><br />
-      3D, AR/VR, digital twins, interactive training, and hardware-connected experiences.
-    </td>
-  </tr>
-</table>
+I am **Galgali**, a **Senior Cybersecurity Analyst & Software Engineer** at EQUAXTION. I combine security analysis with production engineering, so security is considered before deployment, architecture is shaped around risk, and development stays connected to the business outcome.
 
-## Core toolchain
+We work across cybersecurity analysis, secure architecture, application security, custom software, ERP and POS systems, AI automation, web platforms, mobile applications, dashboards, hardware integrations, and immersive digital experiences.
 
-<p>
-  <img src="https://img.shields.io/badge/Laravel-101815?style=flat-square&logo=laravel&logoColor=FF5A48" alt="Laravel" />
-  <img src="https://img.shields.io/badge/PHP-101815?style=flat-square&logo=php&logoColor=9CA7F5" alt="PHP" />
-  <img src="https://img.shields.io/badge/MySQL-101815?style=flat-square&logo=mysql&logoColor=5BB8E8" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Flutter-101815?style=flat-square&logo=flutter&logoColor=62C7F8" alt="Flutter" />
-  <img src="https://img.shields.io/badge/React-101815?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-101815?style=flat-square&logo=next.js&logoColor=FFFFFF" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-101815?style=flat-square&logo=node.js&logoColor=72C46B" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-101815?style=flat-square&logo=python&logoColor=FFD34E" alt="Python" />
-  <img src="https://img.shields.io/badge/Cloudflare-101815?style=flat-square&logo=cloudflare&logoColor=F7A21B" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/Git-101815?style=flat-square&logo=git&logoColor=F06A51" alt="Git" />
-</p>
+### Cybersecurity × engineering
 
-```text
-01  Understand the business before touching the architecture.
-02  Protect production data before optimizing delivery speed.
-03  Make the interface operational before making it decorative.
-04  Ship only what has been checked in the real workflow.
-```
+**Security & resilience** — Risk analysis, application security, vulnerability assessment, system hardening, secure-by-design architecture, and technical investigation.
+
+**Business software** — ERP, POS, inventory, finance, production, operations, analytics, and internal tools designed around real workflows.
+
+**Digital products** — Commercial websites, e-commerce, portals, dashboards, kiosks, APIs, and mobile applications.
+
+**Intelligent & immersive systems** — AI-enabled workflows, automation, analytics, 3D, AR/VR, digital twins, and connected experiences.
+
+### Working environment
+
+Laravel · PHP · MySQL · Flutter · React · Next.js · Node.js · Python · Linux · Windows · Cloudflare · Git · APIs · Hardware integrations
+
+## Looking for the repositories?
+
+No, GitHub is not buffering. Most of the serious work lives in **private repositories**.
+
+Client ERP systems, security work, production infrastructure, and commercial platforms should not become public souvenirs. If you are evaluating EQUAXTION for a project, partnership, or technical mission, **ask me and I will show you the right work in the right context** — without opening every door. That would be terrible cybersecurity. 🙂
+
+## Build it. Secure it. Make it useful.
+
+Have a platform to launch, a business process to digitize, or a system that needs a serious security and engineering review?
+
+**Website:** [equaxtion.com](https://equaxtion.com)<br />
+**Business contact:** [contact@equaxtion.com](mailto:contact@equaxtion.com)<br />
+**Based in:** Morocco
 
 <p align="center">
-  <sub>Designed and engineered in Morocco by EQUAXTION.</sub>
+  <sub>EQUAXTION · Cybersecurity, software engineering, and digital systems.</sub>
 </p>
