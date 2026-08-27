@@ -2,35 +2,22 @@
   <title id="title">Galgali at EQUAXTION — mobile cybersecurity terminal</title>
   <desc id="desc">A restrained mobile terminal with Galgali's ASCII portrait, cybersecurity role, mission, and EQUAXTION contact details.</desc>
   <defs>
-    <linearGradient id="topline" x1="0" x2="1">
-      <stop offset="0" stop-color="#00d992" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00d992" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="#00d992" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="portraitClip"><rect x="40" y="105" width="680" height="448"/></clipPath>
+    <clipPath id="portraitClip"><rect x="38" y="28" width="684" height="456"/></clipPath>
     <style>
-      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
-      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
-      .prompt { fill:#00d992; font-size:15px; font-weight:700; letter-spacing:1.3px; }
-      .muted { fill:#718b82; }
-      .body { fill:#afc2bb; font-size:18px; }
-      .strong { fill:#f2faf7; font-weight:700; }
+      .mono { font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-variant-ligatures:none; }
+      .shell { fill:#809a91; font-size:22px; font-weight:400; }
+      .host { fill:#00d992; }
+      .command { fill:#e4eee9; }
+      .output { fill:#afc2bb; font-size:22px; font-weight:400; }
+      .emphasis { fill:#f1f7f4; font-weight:600; }
+      .dim { fill:#668078; }
     </style>
   </defs>
 
-  <rect width="760" height="960" rx="12" fill="#07100d"/>
-  <rect x="1" y="1" width="758" height="958" rx="11" fill="none" stroke="#244239"/>
-  <rect x="0" y="0" width="760" height="2" rx="1" fill="url(#topline)"/>
+  <rect width="760" height="960" fill="#050c09"/>
 
-  <circle cx="24" cy="27" r="5" fill="#ff6b62"/>
-  <circle cx="43" cy="27" r="5" fill="#e9b949"/>
-  <circle cx="62" cy="27" r="5" fill="#75d98b"/>
-  <text x="92" y="32" class="mono muted" font-size="12">galgali@equaxtion:~/profile</text>
-  <line x1="24" y1="54" x2="736" y2="54" stroke="#18342b"/>
-
-  <text x="40" y="86" class="mono muted" font-size="12" font-weight="700" letter-spacing="2">VISUAL / GALGALI</text>
   <g clip-path="url(#portraitClip)" class="mono" fill="#00d992" font-size="10" opacity="0.93">
-    <text x="76" y="116" xml:space="preserve">
+    <text x="76" y="48" xml:space="preserve">
       <tspan x="76" dy="0">............,,,,..,:,,,,,,,,,,,,,,...... ,;;:,.</tspan>
       <tspan x="76" dy="13">,,.,.,,,...,,,,::,,::,:,,:;::,,,,,,,,,,..::;;:,,</tspan>
       <tspan x="76" dy="13">,,.,,,,...,,,::,;i:.,::,,ii;:,:,,,,,,,,.,;ii;::,</tspan>
@@ -68,17 +55,19 @@
     </text>
   </g>
 
-  <line x1="40" y1="568" x2="720" y2="568" stroke="#1d3b32"/>
+  <text x="40" y="519" class="mono shell"><tspan class="host">galgali@equaxtion</tspan><tspan class="dim">:~$</tspan><tspan class="command"> whoami</tspan></text>
+  <text x="40" y="557" class="mono output emphasis" font-size="26">Galgali</text>
+  <text x="40" y="590" class="mono output">Senior Cybersecurity Analyst</text>
+  <text x="40" y="620" class="mono output">x Software Engineer</text>
+  <text x="40" y="652" class="mono output dim">EQUAXTION / Morocco</text>
 
-  <text x="40" y="609" class="mono prompt">&gt; whoami</text>
-  <text x="40" y="649" class="sans strong" font-size="30">Galgali</text>
-  <text x="40" y="681" class="sans strong" font-size="19">Senior Cybersecurity Analyst × Software Engineer</text>
-  <text x="40" y="711" class="mono body">EQUAXTION · Morocco</text>
+  <text x="40" y="713" class="mono shell"><tspan class="host">galgali@equaxtion</tspan><tspan class="dim">:~$</tspan><tspan class="command"> mission</tspan></text>
+  <text x="40" y="751" class="mono output emphasis" font-size="23">Secure the system. Build the business.</text>
 
-  <text x="40" y="762" class="mono prompt">&gt; mission</text>
-  <text x="40" y="800" class="sans strong" font-size="22">Secure the system. Build the business.</text>
+  <text x="40" y="812" class="mono shell"><tspan class="host">galgali@equaxtion</tspan><tspan class="dim">:~$</tspan><tspan class="command"> contact</tspan></text>
+  <text x="40" y="850" class="mono output">equaxtion.com</text>
+  <text x="40" y="882" class="mono output">contact@equaxtion.com</text>
 
-  <text x="40" y="851" class="mono prompt">&gt; contact</text>
-  <text x="40" y="889" class="mono body">equaxtion.com</text>
-  <text x="40" y="921" class="mono body">contact@equaxtion.com</text>
+  <text x="40" y="929" class="mono shell"><tspan class="host">galgali@equaxtion</tspan><tspan class="dim">:~$</tspan></text>
+  <rect x="310" y="906" width="13" height="27" fill="#00d992" opacity="0.9"/>
 </svg>
